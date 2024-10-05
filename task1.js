@@ -3,11 +3,11 @@ function correctname(input) {
 
     if (validsymbols.test(input)) {
         console.log("Все верно!");
-        return True;
+        return true;
     } 
     else {
         console.log("Есть недопустимые символы");
-        return False;
+        return false;
     }
 }
 const username = prompt("Введите ФИО - ");
